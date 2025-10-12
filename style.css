@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+header>div{
+    text-align: center;
+}
+header>div img {
+    height: 200px;
+    border-radius: 50%;
+}
+header>div h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+header>div h3{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.424) !important;
+}
+nav a:hover{
+    color: rgb(255, 208, 0) !important;
+}
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.729) !important;
+}
+.dropdown-menu a{
+    color: whitesmoke;
+}
+.dropdown-menu a:hover{
+    background-color: rgba(216, 216, 216, 0.727) !important;
+}
+.bg-secondary {
+    background-color: rgb(62, 62, 62) !important;
+}
+.card{
+    width: 200px;
+}
+.card p {
+    transition: 1s;
+}
+.card p:hover {
+    transform: scale(1.2);
+    color: rgb(232, 210, 4);
+}
+footer p{
+    margin: auto;
+    width: max-content;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+#top-btn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#top-btn:hover{
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+#top-btn i{
+    transition: 1s;
+}
+#top-btn i:hover{
+    transform: scale(1.2);
+    color: rgb(232, 210, 4);
+}
+
+
